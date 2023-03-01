@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0 maximum-scale=1.0, minimum-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagenes/favicon.png" type="image/x-icon">
+    <script src="codigo.js" defer></script>
+    <script src="https://kit.fontawesome.com/13cf76d288.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <header>
+
+            <img src="https://randomuser.me/api/portraits/men/86.jpg" alt="Foto de perfil">
+
+            <div id="nombre">
+                <h1>José Alvarado</h1>
+                <p>Desarrollador Web</p>
+            </div>
+
+            <div id="contacto">
+
+                <p><i class="fa-solid fa-phone"></i> <strong><em>Teléfono</em></strong><br>
+                    626 190 0XX<br><br></p>
+
+                <p><i class="fa-solid fa-envelope"></i> <strong><em>Email</em></strong><br>
+                    <a href="mailto:email@email.com? subject=Propuesta%20laboral"
+                        title="Enviar email">email@email.com</a>
+                </p>
+            </div>
+
+        </header>
+
+        <main>
+
+            <section class="main">
+
+                <article>
+
+                    <h2>Perfil profesional</h2>
+
+                    <p><strong>Licenciado en Ingeniería Informática con Máster de Desarrollo de Sitios Web y
+                            Apps</strong>
+                        y más de 4 años de experiencia como desarrollador web de proyectos
+                        <abbr title="Hypertext Preprocessor">PHP</abbr>-<abbr
+                            title="My Structured Query Language">MySQL</abbr>.
+                        Durante mi trayectoria he podido aprender y perfeccionar conocimientos que me han ayudado a
+                        construir un perfil específico. En la actualidad estoy buscando un empleo en el que seguir
+                        ampliando mi experiencia y que me permita asumir nuevas responsabilidades.
+                    </p>
+
+                </article>
+
+                <hr>
+
+                <article>
+
+                    <h2>Información personal</h2>
+
+                    <ul>
+                        <li>Dirección: Carrer de Entença 15, Barcelona</li>
+                        <li>Edad: 36</li>
+                        <li><abbr title="Documento Nacional de Identidad">DNI</abbr>: 32222222</li>
+                        <li>Fecha de nacimiento:<time datetime="06/06/1986">06 de Junio de 1986</time> </li>
+                    </ul>
+
+                </article>
+
+                <hr>
+
+                <article>
+
+                    <h2>Experiencia laboral</h2>
+
+                    <dl>
+                        <dt class="mb-10">Programador web <abbr title="Hypertext Preprocessor">PHP</abbr>
+                            en Ubisoft, Barcelona,
+                            desde <time datetime="05/2018">Mayo de 2018</time> a la actualidad</dt>
+                        <dd class="mb-10">Desarrollo de proyectos en <abbr title="Hypertext Preprocessor">PHP</abbr>-
+                            <abbr title="My Structured Query Language">MySQL</abbr><br>
+                            Diseño front-end en <abbr title="HyperText Markup Language 5">HTML5</abbr>, JQuery,
+                            Bootstrap y
+                            <abbr title="Cascading Style Sheets 3">CSS3</abbr><br>
+                            Desarrollo de aplicaciones en JavaScript y <abbr
+                                title="HyperText Markup Language 5">HTML5</abbr>
+                            para móviles<br>
+                            Desarrollo de aplicaciones interactivas en Ajax<br>
+                            Planificación de las tareas y cumplimiento de los objetivos<br>
+                        </dd>
+                        <dt class="mb-10">Web Developer (Prácticas)
+                            en Airbnb, Barcelona,
+                            desde <time datetime="11/2017">Noviembre de 2017</time> hasta
+                            <time datetime="04/2018">abril de 2018</time>
+                        </dt>
+                        <dd>Programación en <abbr title="HyperText Markup Language">HTML</abbr> y Javascript<br>
+                            Cooperación con UX/UI y Backend<br>
+                            Revisión de publicaciones<br>
+                            Control de incidencias diariamente<br></dd>
+                    </dl>
+
+                </article>
+
+                <hr>
+
+                <article>
+
+                    <h2>Habilidades</h2>
+
+                    <ul>
+                        <li>Conocimiento avanzado en Javascript y <abbr title="Cascading Style Sheets">CSS</abbr></li>
+                        <li>Habituado a trabajar con frameworks y <abbr title="Content Management System">CMS</abbr>
+                        </li>
+                        <li>Capacidad analítica y autocrítica</li>
+                        <li>Conocimiento sobre Licencias de Software</li>
+                        <li>Habilidad para revisar código y mejorarlo</li>
+                        <li>Conocimientos de diseño gráfico</li>
+                        <li>Comunicación proactiva</li>
+                        <li>Resolución de problemas e imprevistos</li>
+                        <li>Pensamiento crítico</li>
+                    </ul>
+
+                </article>
+
+               
+                    <form action="https://formspree.io/f/meqwolla" method="POST" class="form" id="formulario">
+
+                        <div class="form-container">
+
+                            <h2 class="form-title">Contáctame</h2>
+                            <input type="text" name="name" class="form-input" placeholder="Nombre:" required="">
+                            <input type="email" name="email" class="form-input" placeholder="Email:" required="">
+                            <textarea name="message" class="form-input form-input--message" placeholder="Mensaje:"
+                                required=""></textarea>
+                            <div id="botones">
+                                <input type="submit" value="Enviar" class="form-cta">
+                                <input type="reset" value="Restablecer" class="form-cta" id="restablecer">
+                            </div>
+                        </div>
+
+                    </form>
+                
+
+            </section>
+
+            <aside>
+
+                <h2>Referencias</h2>
+
+                <p>Ubisoft Barcelona<br>
+                    Juan Perez<br>
+                    (011)555-5555
+                </p>
+
+                <p>Airbnb Barcelona<br>
+                    Jorge Perez<br>
+                    (011)555-5555
+                </p>
+
+                <div id="red-social">
+
+                    <h2>Redes Sociales</h2>
+
+                    <a href="https://www.facebook.com" target="_blank"><img src="imagenes/facebook.png"
+                            alt="logo Facebook" class="imagenRedes mb-10"></a>
+
+                    <a href="https://twitter.com/?lang=es" target="_blank"><img src="imagenes/gorjeo.png"
+                            alt="logo Twiter" class="imagenRedes mb-10"></a>
+
+                    <a href="https://www.instagram.com" target="_blank"><img src="imagenes/instagram.png"
+                            alt="logo Instagram" class="imagenRedes mb-10"></a>
+
+                </div>
+
+            </aside>
+
+        </main>
+
+        <footer id="footer">
+
+            <input type="checkbox" id="check-item">
+
+            <button type="button" id="mostrarForm" class="btn">Ver Formulario de Contacto</button>
+
+            <button type="button" id="ocultarForm" class="btn">Ocultar Formulario de Contacto</button>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
